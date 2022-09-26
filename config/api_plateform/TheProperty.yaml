@@ -1,0 +1,19 @@
+App\Entity\TheProperty:
+
+  collectionOperations:
+    post:
+      method: POST
+      path: 'gestion/add'
+    get:
+      method: GET
+      path: 'gestion/get'
+
+  itemOperations:
+    get:
+      path: 'gestion/get/{id}'
+    put:
+      path: 'gestion/put/{id}'
+    patch:
+      path: 'gestion/path/{id}'
+    delete:
+      delete: 'gestion/delete/{id}'
